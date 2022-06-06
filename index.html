@@ -11,7 +11,8 @@
         <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <link rel="stylesheet" href="./assets/css/styles.css" />       
+
 
         <title>Portfólio | Rafael Prado</title>
     </head>
@@ -19,7 +20,7 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">&lt;rafae/&gt;</a>
+                <a href="#" class="nav__logo"><img src="./assets/img/logo.svg"></a>
 
                 <div class="nav__menu">
                     <ul class="nav__list">
@@ -66,14 +67,14 @@
                         <h3 class="home__education">Frontend Developer</h3>
 
                         <div class="home__buttons">
-                            <a download="" href="./assets/pdf/Rafael-Cv.pdf" class="button button--ghost">
-                                Download CV
+                            <a href="#contact" class="button button--ghost">
+                                Fale comigo
                             </a>
                             <a href="#about" class="button">Sobre mim</a>
                         </div>
                     </div>
                     <div class="class home__handle">
-                        <img src="./assets/img/Avatar.svg" alt="" class="home__img"/>                        
+                        <img src="./assets/img/avatar.png" alt="" class="home__img"/>                        
                     </div>
 
                     <div class="class home__social">
@@ -102,7 +103,7 @@
                 <span class="section__subtitle">Introdução</span>
                 <h2 class="section__title">Sobre mim</h2>
                 <div class="about__container container grid">
-                    <img src="./assets/img/Avatar2.svg" alt="" class="home__img"/>
+                    <img src="./assets/img/avatar2.png" alt="" class="home__img"/>
                     <!--<img src="./assets/img/about.jpg" alt="" class="about__img" />-->
 
                     <div class="about__data">
@@ -110,7 +111,7 @@
                             <div class="about__box">
                                 <i class="bx bx-award about__icon"></i>
                                 <h3 class="about__title">Experiência</h3>
-                                <span class="about__subtitle">9 Anos Trabalho</span>
+                                <span class="about__subtitle">09 Anos Trabalho</span>
                             </div>
                             <div class="about__box">
                                 <i class="bx bx-briefcase-alt about__icon"></i>
@@ -118,17 +119,22 @@
                                 <span class="about__subtitle">23 + Projetos</span>
                             </div>
                             <div class="about__box">
-                                <i class="bx bx-support about__icon"></i>
-                                <h3 class="about__title">Contato</h3>
-                                <span class="about__subtitle">Online 24/7</span>
+                                <i class='bx bx-code-alt about__icon' ></i>
+                                <h3 class="about__title">Educação</h3>
+                                <span class="about__subtitle">Frontend Dev</span>
                             </div>
                         </div>
                         <p class="about__description">
-                            Desenvolvedor de software focado em frontend, graduando em análise e desenvolvimento de sistemas. Excelente capacidade de comunicação. Com o objetivo de alavancar experiência acadêmica e conhecimento comprovado
-                            em programações utilizando as melhores tecnologias de desenvolvimento web e mobile.
-                        </p>
+                            Desde o início da minha jornada como desenvolvedor front-end fiz trabalhos remotos e colaborei com pessoas talentosas para criar projetos.</p>
 
-                        <a href="#contact" class="button">Fale comigo</a>
+                            <p class="about__description">Minha stack atual inclui: Javascript , CSS3/HTML5, Github. Tenho uma boa experiência com softwares gráficos como Illustrator, Photoshop e Figma. Em algum momento trabalhei com outras tecnologias como Android e WordPress, mas não me aprofundei nelas.
+
+                            </p>
+                        
+                        
+                        <a download="" href="./assets/pdf/Rafael-Cv.pdf" class="button button">
+                            Download CV <i class='bx bxs-download' ></i>
+                        </a>
                     </div>
                 </div>
             </section>
@@ -150,6 +156,8 @@
                                     <div>
                                         <h3 class="skills__name">HTML</h3>
                                         <span class="skills_level">Avançado</span>
+                                        <div class="ldBar" data-value="50">
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="skills__data">
@@ -253,7 +261,7 @@
 
                                     <div>
                                         <h3 class="skills__name">Mobile</h3>
-                                        <span class="skills_level">Avançado</span>
+                                        <span class="skills_level">Básico</span>
                                     </div>
                                 </div>
                             </div>
@@ -521,6 +529,6 @@
         <script src="./assets/js/mixitup.min.js"></script>
 
         <!--=============== MAIN JS ===============-->
-        <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/main.js"></script>        
     </body>
 </html>

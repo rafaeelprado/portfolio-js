@@ -55,14 +55,16 @@
 @media screen and (min-width: 968px) {
   :root {
     --biggest-font-size: 2.7rem;
-    --h1-font-size: 2.45rem;
-    --h2-font-size: 1.7rem;
+    --h1-font-size: 2.65rem;
+    --h2-font-size: 2.4rem;
     --h3-font-size: 1.45rem;
-    --normal-font-size: 1.2rem;
+    --normal-font-size: 1.1rem;
     --small-font-size: 1rem;
-    --smaller-font-size: .713rem;
-  }
+    --smaller-font-size: .913rem;
+  }  
+
 }
+
 
 /*=============== BASE ===============*/
 * {
@@ -247,12 +249,18 @@ body.light-theme{
   font-weight: var(--font-medium);
   transition: .4s;
   font-family: 'Nanum Pen Script', cursive;
-  font-size: var(--h3-font-size);
-
+  width: 48px;
+  height: 40px;  
+  
 }
 
-.nav__logo{
-color: var(--first-color-alt);
+.nav__logo:hover{  
+  -webkit-filter: invert(20%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: invert(60);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: invert(50);
+  -o-transition: .5s ease-in-out;     
 }
 
 .nav__menu{
@@ -310,39 +318,34 @@ color: var(--title-color);
 }
 
 .home__greeting{
+  display: block;
   font-size: var(--h2-font-size);
   font-weight: var(--font-medium);
-  margin-bottom: 2.5rem;
+  color: var(--title-color);
+  margin-bottom: 0.5rem;
 }
 .home__education{
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: 2.5rem;
-}
-
-.home__greeting{
-  display: block;
-  color: var(--title-color);
-  margin-bottom: 2.5rem;
-}
-
-.home__education{
   color: var(--text-color);
   margin-bottom: 2.5rem;
-}
+}  
+
 .home__name{
   font-size: var(--biggest-font-size);
 }
 
 .home__img{   
-  width: 400px;
-  height: 300px;
+  width: 230px;
+  justify-self: center;
+  
 }
 
 .home__handle{
   justify-self: center;
-  width: 320px;
-  height: 320px;
+  width: 401px;
+  height: 235px;
 /*background: linear-gradient(180deg,
   hsla(var(--first-hue), var(--sat), var(--lig), 1),
   hsla(var(--first-hue), var(--sat), var(--lig), .2)
@@ -972,6 +975,14 @@ border-radius: 1rem;
     margin: 0 auto;
 
   }
+  .home__handle{
+    width: 430px;
+    height: 250px;
+  }
+  .home__img{
+    width: 250px;    
+    justify-self: center;
+  }
 }
 
 @media screen and (min-width: 767px){
@@ -990,6 +1001,14 @@ border-radius: 1rem;
     width: 360px;
     margin: 0 auto;
 
+  }
+  .home__handle{
+    width: 430px;
+    height: 290px;
+  }
+  .home__img{
+    width: 290px; 
+    justify-self: center;   
   }
   
 }
@@ -1013,10 +1032,11 @@ border-radius: 1rem;
 
   .home__handle{
     width: 430px;
-    height: 430px;
+    height: 320px;
   }
   .home__img{
-    width: 520px;
+    width: 320px;
+    justify-self: center;
   }
   .home__social-link{
     padding: .4rem;
@@ -1078,5 +1098,5 @@ border-radius: 1rem;
   .footer__social-link{
     font-size: 1.2rem;   
     border-radius: 0.5rem;
-  }
+  }  
 }
