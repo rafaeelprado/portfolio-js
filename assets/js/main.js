@@ -49,9 +49,6 @@ function activeWork(){
 linkWork.forEach(linkWork=> linkWork.addEventListener('click', activeWork))
 
 
-/*=============== SWIPER TESTIMONIAL ===============*/
-
-
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
 

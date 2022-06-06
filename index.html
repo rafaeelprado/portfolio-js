@@ -132,7 +132,7 @@
                             </p>
                         
                         
-                        <a download="" href="./assets/pdf/Rafael-Cv.pdf" class="button button">
+                        <a download="" href="./assets/pdf/Resume.pdf" class="button button">
                             Download CV <i class='bx bxs-download' ></i>
                         </a>
                     </div>
@@ -467,20 +467,22 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Envie uma mensagem</h3>
 
-                        <form action="" class="contact__form">
+                        <form action="https://api.staticforms.xyz/submit" id="form" method="POST" class="contact__form">
+                            <input type="hidden" name="accessKey" value="562973fc-7bbc-4e7f-8253-4e3bde92ff11"> 
+                            <input type="hidden" name="redirectTo" value="https://rafaprado.vercel.app/#contact">                        
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Nome</label>
-                                <input type="text" placeholder="Insira seu nome" class="contact__form-input" />
+                                <input type="text" id="inputName" name="name" placeholder="Insira seu nome" class="contact__form-input" />
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Email</label>
-                                <input type="email" placeholder="Insira seu email" class="contact__form-input" />
+                                <input type="email" id="inputEmail" name="email" placeholder="Insira seu email" class="contact__form-input" />
                             </div>
 
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag">Projeto</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Escreva sobre seu projeto" class="contact__form-input"></textarea>
+                                <textarea name="message" id="textAreaMessage"  cols="30" rows="10" placeholder="Escreva sobre seu projeto" class="contact__form-input"></textarea>
                             </div>
 
                             <button class="button">Enviar Mensagem</button>
