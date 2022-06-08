@@ -709,13 +709,6 @@ border-radius: 1rem;
   color: var(--body-color);
 }
 
-
-/*=============== TESTIMONIAL ===============*/
-
-
-/* Swiper class */
-
-
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 3rem;
@@ -817,7 +810,6 @@ border-radius: 1rem;
 .contact__form-area textarea{
   resize: none;
 }
-
 
 
 /*=============== FOOTER ===============*/
