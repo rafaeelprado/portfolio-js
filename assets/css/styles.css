@@ -678,6 +678,11 @@ border-radius: 1rem;
   border-radius: 0.7rem;
   margin-bottom: .75rem;
 }
+.work__img_csoon{
+  border-radius: 0.7rem;
+  margin-bottom: .75rem;
+  filter: blur(6px);
+}
 
 .work__title{
   font-size: var(--normal-font-size);
@@ -958,6 +963,9 @@ border-radius: 1rem;
   .work__img{
     width: 295px;
   }
+  .work__img_csoon{
+    width: 295px;
+  }
   .contact__info{
     grid-template-columns: 300px;
     justify-content: center;  
@@ -1079,6 +1087,9 @@ border-radius: 1rem;
     padding: 1.25rem;
   }
   .work__img{
+    margin-bottom: 1rem;
+  }
+  .work__img_csoon{
     margin-bottom: 1rem;
   }
   .work__title{
