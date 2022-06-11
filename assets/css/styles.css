@@ -656,7 +656,7 @@ border-radius: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: .75rem;
+  column-gap: .15rem;
   margin-bottom: 2rem;
 }
 
