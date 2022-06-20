@@ -1,4 +1,4 @@
-# [Rafael Prado](https://rafaprado.vercel.app/)'s Portfolio
+# [Rafael Prado](https://rafaprado.vercel.app/)'s Portfolio v1
 
 > The first iteration of my portfolio built with HTML, CSS and JS and hosted on Vercel. <br>
 > Link: https://rafaprado.vercel.app/
